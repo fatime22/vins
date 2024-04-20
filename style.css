@@ -1,11 +1,14 @@
 .nav{
     width: 100%;
     height: 400px;
-    background-color: blueviolet;
+    background-image: url(slider-bg.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding-top: 30px;
     position: relative;
 }
+
 
 .section1{
     width: 75%;
@@ -106,10 +109,16 @@
 
     .section1{
         display: none;
-        flex-direction: column;
+        
     }
     .section2{
+        width: 50%;
+        height: 600px;
+        background-color: white;
+        flex-direction: column;
         display: grid;
+        gap: 30px;
+        margin: 0 auto;
     }
 
     .header1 div{
@@ -117,13 +126,38 @@
     }
 
     .header2{
-        height: 3000px;
-        display: grid;
-    }
-
-    .ban1,.ban2,.ban3,.ban4{
+        height: 5000px;
         width: 100%;
         display: grid;
+       
+    
+
     }
+
+    .header2 p{
+        text-align: center;
+        color: palevioletred;
+    }
+
+    .ban1 ,.ban2,.ban3 ,.ban4 {
+        display: grid;
+        gap: 10px;
+        
+    }
+
+    .ban1 div,.ban2 div,.ban3 div{
+        width: 100%;
+    }
+
+    .ban4{
+        margin-left: 70px;
+        width: 70%;
+    }
+
+    
+
+    
+
+    
 
 }
